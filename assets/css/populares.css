@@ -63,8 +63,16 @@
     text-align: justify;
 }
 
+
+.populares__header{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
 .populares__titulo{
     font-weight: 500;
+    justify-content: flex-start;
 }
 
 .populares__icon{
@@ -81,6 +89,7 @@
     background: transparent;
     border: none;
     color: #333333;
+    justify-content: flex-end;
 }
 
 .populares__card:last-child{
